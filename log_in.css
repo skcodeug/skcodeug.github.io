@@ -1,0 +1,70 @@
+body{
+
+    background: url(images/carr.jpeg);
+   
+}
+.loginpage{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(78, 160, 236);
+    margin-top: 1%;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+.loginpage p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:#efed40;
+    font-size: 20;
+}
+.loginpage input {
+    width: 200px;
+    margin-bottom: 50px;
+}
+.loginpage input[type="text"],
+.loginpage input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #efed40;
+    background: transparent;
+    outline: none;
+    height: 60px;
+    color: #efed40;
+    font-size: 20px;
+}
+::placeholder{
+    color: rgb(54, 53, 53);
+    
+}
+.loginpage input[type="submit"] 
+{
+    background-color: rgb(11, 12, 11);
+    color:#efed40;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.loginpage input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+.loginpage a 
+{
+    color: #efed40;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
